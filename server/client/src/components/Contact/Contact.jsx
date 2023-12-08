@@ -25,7 +25,7 @@ const Contact = () => {
       e.preventDefault();
       const data = { name, email, message };
       setLoading(true);
-      await axios.post("/send-email", data, {
+      await axios.post(`${window.location.origin}/send-email`, data, {
         headers: {
           "Content-Type": "application/json",
         },
