@@ -8,10 +8,10 @@ const port = 3001;
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
-app.use(express.static(path.join(__dirname, "./client/build")));
+app.use(express.static(path.join(__dirname, "../server/client/build")));
 
 app.get("*", (req, res) => {
-  res.sendFile(path.join(__dirname, "./client/build/index.html"));
+  res.sendFile(path.join(__dirname, "../server/client/build/index.html"));
 });
 app.get("/", (req, res) => {
   res.json({ success: true, message: "Imran Malik" });
