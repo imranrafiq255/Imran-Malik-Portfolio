@@ -27,7 +27,7 @@ const Intro = () => {
           <span style={{ color: darkMode ? "white" : "" }}>Hey! I Am </span>
           <span>Imran Malik</span>
           <span>
-            <h6>
+            <h6 className="h6-mobile">
               I am a full stack web developer in MERN Stack, I've expertise of
               MongoDB, Express Js, React Js, NODE Js. I am expert of making
               Restful APIs in Express and having good skills in front end using

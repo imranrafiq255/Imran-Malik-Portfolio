@@ -118,4 +118,10 @@
       left: 15%;
       bottom: 25%;
     }
+
+    .h6-mobile 
+    {
+      font-size: 15px;
+      letter-spacing: 0.5px;
+    }
 }
