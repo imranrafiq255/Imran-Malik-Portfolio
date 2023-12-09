@@ -25,7 +25,7 @@ const Contact = () => {
       e.preventDefault();
       const data = { name, email, message };
       setLoading(true);
-      await axios.post(`${window.location.origin}/send-email`, data, {
+      await axios.post("https://email-api-zeta.vercel.app/send-email", data, {
         headers: {
           "Content-Type": "application/json",
         },
@@ -35,6 +35,7 @@ const Contact = () => {
       resetForm();
     } catch (error) {
       console.log(error.repsonse.data.message);
+      alert(error.repsonse.data.message);
     } finally {
       setLoading(false);
       resetForm();
