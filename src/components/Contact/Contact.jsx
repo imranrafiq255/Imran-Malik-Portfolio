@@ -37,6 +37,7 @@ const Contact = () => {
       console.log(error.repsonse.data.message);
     } finally {
       setLoading(false);
+      resetForm();
     }
   };
 
