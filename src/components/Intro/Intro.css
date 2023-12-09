@@ -126,7 +126,7 @@
     }
 }
 
-@media screen and (min-width: 300px) and (max-width: 380px) {
+@media screen and (min-width: 300px) and (max-width: 480px) {
   .i-right> :nth-child(3) {
     transform: scale(1.4);
     left: 15%;
