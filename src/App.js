@@ -44,6 +44,7 @@ function App() {
             </div>
           }
         />
+        <Route path="/home" element={<Navbar />} />
       </Routes>
     </BrowserRouter>
   );
