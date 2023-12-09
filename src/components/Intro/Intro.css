@@ -130,6 +130,6 @@
   .i-right> :nth-child(3) {
     transform: scale(1.4);
     left: 15%;
-    bottom: 26.5% !important;
+    bottom: 33.5% !important;
   }
 }
