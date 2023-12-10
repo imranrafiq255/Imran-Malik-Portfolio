@@ -20,7 +20,7 @@ const Testimonial = () => {
     {
       img: profilePic2,
       review:
-        "Imran is wonderful and very responsive and creative delivered faster than the given time! thank you Hurera for this wonderful experience.",
+        "Imran is wonderful and very responsive and creative delivered faster than the given time! thank you Imran for this wonderful experience.",
     },
     {
       img: profilePic3,
