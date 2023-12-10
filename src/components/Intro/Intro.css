@@ -116,7 +116,7 @@
     .i-right> :nth-child(3) {
       transform: scale(1.4);
       left: 15%;
-      bottom: 37.5%;
+      bottom: 39.5%;
     }
 
     .h6-mobile 
@@ -130,6 +130,6 @@
   .i-right> :nth-child(3) {
     transform: scale(1.4);
     left: 15%;
-    bottom: 35.5% !important;
+    bottom: 33.5% !important;
   }
 }
